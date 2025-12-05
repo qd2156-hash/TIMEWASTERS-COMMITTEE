@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TIMEWASTERS — Official Directorate Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Access widget (top-right) -->
+  <div class="access" role="region" aria-label="Restricted access">
+    <input id="accessInput" placeholder="Enter access code" />
+    <button id="accessBtn">Access</button>
+  </div>
+
+  <div class="container" role="main">
+    <header class="header">
+      <div class="logo-wrap">
+        <img src="logo.svg" alt="Timewasters Directorate logo">
+        <div>
+          <div class="title">TIMEWASTERS</div>
+          <div class="tag">Directorate • National Play Initiative</div>
+        </div>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="announcements.html">Announcements</a>
+        <a href="citizens.html">Citizen System</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-card">
+        <div class="kicker">Official Notice</div>
+        <div class="h1">National Play Program — Enroll Today</div>
+        <p class="lead">
+          The Directorate introduces Timewasters: an immersive, nanotech-driven experience
+          calibrated to elevate citizen happiness, reduce unrest, and create a unified national rhythm.
+        </p>
+
+        <div class="features" style="margin-top:18px;">
+          <div class="feature">
+            <h3>Immersive Nanodisplays</h3>
+            <p>Posters and panels that morph, pulse, and respond—designed to sustain attention and joy.</p>
+          </div>
+          <div class="feature">
+            <h3>Dopamine Color Engine</h3>
+            <p>Optimizes reward loops using science-backed chromatic sequences.</p>
+          </div>
+          <div class="feature">
+            <h3>Ephemeral Messaging</h3>
+            <p>Content can dissolve after viewing—privacy for the state, novelty for the citizen.</p>
+          </div>
+        </div>
+
+        <div style="margin-top:20px">
+          <a class="button" href="announcements.html">View Official Announcements</a>
+          <a class="button" style="margin-left:12px" href="citizens.html">Check Citizen Rank</a>
+        </div>
+      </div>
+
+      <aside class="poster-mock">
+        <div class="poster-title">Demonstration Poster</div>
+        <div style="position:absolute;left:12px;bottom:12px;display:flex;gap:8px" class="poster-strip">
+          <div style="width:70px;height:42px;background:linear-gradient(90deg,var(--accent1),var(--accent2));border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:800">PULSE</div>
+          <div style="width:70px;height:42px;background:linear-gradient(90deg,var(--accent2),var(--accent3));border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:800">DRIFT</div>
+        </div>
+      </aside>
+    </section>
+
+    <div class="row">
+      <div class="card">
+        <h3>Why Participate?</h3>
+        <p class="small">Participation strengthens national unity. Regular engagement increases your public score, unlocking benefits such as priority access to services and eligibility for recognition awards.</p>
+        <div style="margin-top:12px">
+          <div class="small">Pilot regions currently online: Sector 3, Sector 7, Coastal Belt.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Quick Bulletin</h3>
+        <p class="small">Q2 rollout schedule announced. New nanotech posters will be distributed to verified households in order of citizen rank.</p>
+        <div style="margin-top:10px" class="small">Stay compliant. Stay joyful.</div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      © 2149 Directorate • All programs are mandatory for national stability.
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TIMEWASTERS — Citizen Harmony System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="access" aria-label="Restricted access">
+    <input placeholder="Enter access code" />
+    <button>Access</button>
+  </div>
+
+  <div class="container">
+    <header class="header">
+      <div class="logo-wrap">
+        <img src="logo.svg" alt="Timewasters Directorate logo">
+        <div>
+          <div class="title">Citizen Harmony</div>
+          <div class="tag">Ranking Dashboard</div>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="announcements.html">Announcements</a>
+        <a href="citizens.html">Citizen System</a>
+      </nav>
+    </header>
+
+    <section class="hero-card">
+      <div class="kicker">Harmony Dashboard</div>
+      <h2 style="margin-top:6px">Track your National Engagement Score</h2>
+      <p class="lead">Your daily participation in Timewasters determines access to benefits and national honors.</p>
+
+      <div style="margin-top:16px" class="card">
+        <h3>My Current Score</h3>
+        <div style="display:flex;align-items:center;gap:18px;margin-top:10px">
+          <div style="font-size:42px;font-weight:900;color:var(--accent1)" id="scoreOut">42</div>
+          <div class="small">Keep playing to raise your rank. Tier thresholds: S (80+), B (50-79), D (&lt;50)</div>
+        </div>
+        <div style="margin-top:12px">
+          <button id="simulateScore" class="button">Simulate Session (demo)</button>
+        </div>
+      </div>
+
+      <div style="margin-top:18px" class="card">
+        <h3>Ranking Table</h3>
+        <table class="table" aria-label="citizen rank table">
+          <thead><tr><th>Citizen</th><th>Score</th><th>Tier</th></tr></thead>
+          <tbody>
+            <tr><td>Citizen 001</td><td>92</td><td>S</td></tr>
+            <tr><td>Citizen 102</td><td>73</td><td>B</td></tr>
+            <tr><td>Citizen 218</td><td>48</td><td>D</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="footer">© Directorate • Citizen Harmony System</footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
